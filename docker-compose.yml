@@ -1,12 +1,13 @@
-version: '2'
+version: '3'
 services:
   photobook-kaimook:
     container_name: photobook-kaimook
     image: photobook-kaimook:latest
-    mem_limit: 2000m
-    restart: always
     build:
       context: .
     ports:
-      - "3002:5000"
-    network_mode: bridge
+      - "5000:5000"
+    volumes:
+      - .:/usr/src/app
+
+

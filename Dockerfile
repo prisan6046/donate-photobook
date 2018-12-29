@@ -4,11 +4,11 @@ FROM node:9.4.0
 ENV NPM_CONFIG_LOGLEVEL warn
 
 # Copy all local files into the image.
-RUN mkdir -p /application
+RUN mkdir -p /app
 
-COPY . /application
+COPY . /app
 
-WORKDIR /application
+WORKDIR /app
 
 # Install `serve` to run the application.
 RUN npm install -g serve
