@@ -20,13 +20,13 @@ class Home extends Component {
                     <div class="container">
                         <div class="row">
                             <div class="col-md-12">
-                                <img src="photo/BESIDEKAIMOOK_Donation-01.png" height="100%" width="100%" />
+                                <img src="photo/BESIDEKAIMOOK_Donation-01.png" height="100%" width="100%" alt="photo01" />
                             </div>
                         </div>
                         <br />
                         <div class="row">
                             <div class="col-md-12">
-                                <img src="photo/BESIDEKAIMOOK_Donation-02.png" height="100%" width="100%" />
+                                <img src="photo/BESIDEKAIMOOK_Donation-02.png" height="100%" width="100%" alt="photo02" />
                             </div>
                         </div>
                     </div>
@@ -119,7 +119,7 @@ class Home extends Component {
                                     </div>
 
                                     <div class="col-md-8">
-                                        <img src="photo/Beside_Kaimook.png" height="100%" width="100%" />
+                                        <img src="photo/Beside_Kaimook.png" height="100%" width="100%" alt="photo03" />
                                     </div>
 
                                 </div>
