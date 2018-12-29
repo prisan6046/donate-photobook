@@ -1,0 +1,14 @@
+version: '2'
+services:
+  register-photobook-kaimook:
+    container_name: register-photobook-kaimook
+    image: register-photobook-kaimook:latest
+    mem_limit: 2000m
+    restart: always
+    build:
+      context: .
+    ports:
+      - "3002:5000"
+    expose:
+        - "3002"
+    network_mode: bridge
